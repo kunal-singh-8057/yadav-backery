@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('cake.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	
+}
+
+ul{
+	list-style: none;
+	float: left;
+	margin-left: 50%;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+
+	
+}
+
+ul li{
+	padding-top: 24px;
+
+
+}
+
+ul li a:hover{
+	border-bottom: 3px solid purple;
+	border-top: 3px solid purple;
+}
+
+.heading1{
+	color: white;
+	margin-left: 55px;
+	padding-top: 20%;
+	font-size:65px ;
+	font-family: flamenco;
+}
+
+.heading2{
+	color: white;
+	margin-left: 55px;
+	font-size:65px ;
+
+}
+
+.btn{
+
+	margin-top: 45px;
+	margin-left: 55px;
+	background: transparent;
+	color: purple;
+	border :2px solid purple;
+	text-decoration: none;
+	border-radius: 200px;
+	padding: 10px 30px;
+}
+
+.menu{
+	margin-top: 0.5%;
+}
+
+.btn:hover{
+	color: purple;
+	background-color: white;
+}
+
+.colorchange{
+	animation: colorchangekunal 2s infinite;
+}
+
+@keyframes colorchangekunal {
+	0%{color: yellow;}
+	25%{color: purple;}
+	50%{color: skyblue;}
+	100%{color: purple;}
+
+}
